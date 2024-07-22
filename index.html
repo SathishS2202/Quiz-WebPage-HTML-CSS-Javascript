@@ -11,42 +11,43 @@
         <div class="head">
             <h1>In web design,what does CSS stand for?</h1>
         </div>
-        <div class="answer1" onclick="red()">
-            <button>A</button>
+        <div class="answer1"onclick="red1()">
+            <button class="wrong1" onclick="red1()">A</button>
             <h4>Counter Strike Source</h4>
         </div>
-        <div class="answer2" onclick="red()" >
-            <button>B</button>
+        <div class="answer2" onclick="red2()">
+            <button class="wrong2" onclick="red2()">B</button>
             <h4>Corrective Style Sheet</h4>
         </div>
-        <div class="answer3" onclick="red()">
-            <button>C</button>
+        <div class="answer3" onclick="red3()">
+            <button class="wrong3" onclick="red3()">C</button>
             <h4>Computer Style Sheet</h4>
         </div>
         <div class="answer4" onclick="green()">
-            <button>D</button>
+            <button class="answer" onclick="green()">D</button>
             <h4>Cascading Style Sheet</h4>
         </div>
     </div>
     <script>
-        var colorchange=document.getElementsByClassName("container");
+            var colorchange=document.getElementsByClassName("container");
             function green(){
-                document.getElementsByClassName("answer4")[0].style.backgroundColor="green";color:"black";
+                document.getElementsByClassName("answer4")[0].style.backgroundColor="green";
+                document.getElementsByClassName("answer")[0].style.backgroundColor="green";
             }
-           /*  var colorchange=document.getElementsByClassName("container");
-            function red(){
-                document.getElementsByClassName("answer1")[0].style.backgroundColor="red";color:"black";
+            function red3(){
+                document.getElementsByClassName("answer3")[0].style.backgroundColor="red";
+                document.getElementsByClassName("wrong3")[0].style.backgroundColor="red";
             }
-            var colorchange=document.getElementsByClassName("container");
-            function red(){
-                document.getElementsByClassName("answer2")[0].style.backgroundColor="red";color:"black";
+            function red2(){
+                document.getElementsByClassName("answer2")[0].style.backgroundColor="red";
+                document.getElementsByClassName("wrong2")[0].style.backgroundColor="red";
             }
-            var colorchange=document.getElementsByClassName("container");
-            function red(){
-                document.getElementsByClassName("answer3")[0].style.backgroundColor="red";color:"black";
-            } */
-            
+            function red1(){
+                document.getElementsByClassName("answer1")[0].style.backgroundColor="red";
+                document.getElementsByClassName("wrong1")[0].style.backgroundColor="red";
+            }
     </script>
     
+</body>
 </body>
 </html>
