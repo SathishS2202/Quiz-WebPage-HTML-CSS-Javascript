@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(167, 243, 167);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    background-color:rgb(252, 226, 192);
+    padding: 20px;
+    width: 60%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.head{
+    margin: 15px 20px;
+
+}
+.head h1{
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.answer1,.answer2,.answer3,.answer4{
+    background-color: white;
+    margin-top: 10px;
+}
+h4{
+    display: inline;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+button{
+    padding: 20px 30px;
+    background-color: rgb(230, 62, 62);
+    color: white;
+    border: 1px solid rgb(77, 76, 76);
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>In web design,what does CSS stand for?</h1>
+        </div>
+        <div class="answer1" onclick="red()">
+            <button>A</button>
+            <h4>Counter Strike Source</h4>
+        </div>
+        <div class="answer2" onclick="red()" >
+            <button>B</button>
+            <h4>Corrective Style Sheet</h4>
+        </div>
+        <div class="answer3" onclick="red()">
+            <button>C</button>
+            <h4>Computer Style Sheet</h4>
+        </div>
+        <div class="answer4" onclick="green()">
+            <button>D</button>
+            <h4>Cascading Style Sheet</h4>
+        </div>
+    </div>
+    <script>
+        var colorchange=document.getElementsByClassName("container");
+            function green(){
+                document.getElementsByClassName("answer4")[0].style.backgroundColor="green";color:"black";
+            }
+           /*  var colorchange=document.getElementsByClassName("container");
+            function red(){
+                document.getElementsByClassName("answer1")[0].style.backgroundColor="red";color:"black";
+            }
+            var colorchange=document.getElementsByClassName("container");
+            function red(){
+                document.getElementsByClassName("answer2")[0].style.backgroundColor="red";color:"black";
+            }
+            var colorchange=document.getElementsByClassName("container");
+            function red(){
+                document.getElementsByClassName("answer3")[0].style.backgroundColor="red";color:"black";
+            } */
+            
+    </script>
+    
+</body>
+</html>
